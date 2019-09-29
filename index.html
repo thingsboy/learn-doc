@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>分布式微服务</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="docsify/css/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '首页',
+      repo: 'https://github.com/thingsboy',
+      loadNavbar: true,
+      loadSidebar: true,
+      coverpage: true,
+      auto2top: true,
+      maxLevel: 2,
+      subMaxLevel: 2,
+      search: {
+        placeholder: '搜索',
+        noData: '找不到结果!',
+        depth: 5
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',//防止意外回退
+        '/.*/_navbar.md': '/_navbar.md'
+      },
+      ga: 'UA-144208445-1'
+    }
+  </script>
+  <script src="docsify/scripts/docsify.min.js"></script>
+  <script src="docsify/scripts/ga.js"></script>
+  <script src="docsify/scripts/search.js"></script>
+  <script src="docsify/scripts/docsify-copy-code.min.js"></script>
+  <script src="docsify/scripts/prism-bash.js"></script>
+  <script src="docsify/scripts/prism-java.js"></script>
+  <script src="docsify/scripts/prism-sql.js"></script>
+</body>
+</html>
