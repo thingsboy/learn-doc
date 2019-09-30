@@ -15,7 +15,7 @@ $ ip addr
 # 查看网卡的配置文件
 
 ```shell
-# 去到网络脚本目录
+# 去到网卡脚本目录
 $ cd /etc/sysconfig/network-scriptes
 $ ls
 ```
