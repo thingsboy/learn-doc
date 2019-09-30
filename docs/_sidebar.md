@@ -21,3 +21,6 @@
   * [EMQ](mqtt/emq.md)
 
 * redis
+
+* centos
+  * [设置固定IP](centos/ip.md)
