@@ -1,3 +1,16 @@
+* java要点
+  * [架构之美](java/architect.md)
+  * [设计模式](java/design-pattern.md)
+  * [开发原则](java/principle.md)
+  * [反射](java/reflect.md)
+
+* spring
+ * [ioc](spring/IOC.md)
+
+* SpringCloud
+  * [Feign](springcloud/feign.md)
+  * [jpa](springcloud/jpa.md)
+     
 * DB
   * [MySQL](db/MySQL.md)
 
@@ -10,10 +23,6 @@
   * [eureka](register/eureka.md)
   * [consul](register/consul.md)
   * [zookeeper](register/zookeeper.md)
-
-* SpringCloud
-  * [Feign](springcloud/feign.md)
-  * [jpa](springcloud/jpa.md)
 
 * 物联网
   
